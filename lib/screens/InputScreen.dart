@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_lab/components/CustomInput.dart';
 import 'package:flutter_lab/models/TypeItem.dart';
 
+const _titleAppBar = 'Input Screen';
+
 class InputScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -18,7 +20,7 @@ class InputScreenState extends State<InputScreen> {
     return Container(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Input Screen'),
+          title: Text(_titleAppBar),
         ),
         body: Builder(
           builder: (context) => SingleChildScrollView(

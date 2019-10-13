@@ -12,7 +12,7 @@ class FlutterLabApp extends StatelessWidget {
         accentColor: Color(0xffe4161c),
         buttonTheme: ButtonThemeData(
           buttonColor: Color(0xffe4161c),
-          textTheme: ButtonTextTheme.primary
+          textTheme: ButtonTextTheme.primary,
         ),
       ),
       home: ListScreen(),
